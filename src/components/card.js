@@ -1,3 +1,6 @@
+import axios from "axios";
+console.log(axios.get('http://localhost:5001/api/articles'))
+
 const Card = (article) => {
   // TASK 5
   // ---------------------
